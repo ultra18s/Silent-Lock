@@ -6,7 +6,7 @@ Larp Larp Larp
 
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ultra18s/Lib/main/Lib-ui"))()
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ultra18s/POORON-LIB/main/Lib"))()
-NotifyLib.prompt('ALL WE DO IS LARP!!! - rainbow skidder loaded', 5)
+NotifyLib.prompt('ALL WE DO IS LARP!!! - rainbow skidder loaded', 777)
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 local VirtualInputManager = game:service("VirtualInputManager")
@@ -193,7 +193,7 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
             if Settings.rewrittenmain.NOTIF == true then
                 Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Unlocked",
+                    Title = "𝙐𝙣𝙡𝙤𝙘𝙠𝙚𝙙",
                     Text = "Spared: "..tostring(Plr.Character.Humanoid.DisplayName),
                     Duration = 1.5
                 })
@@ -203,7 +203,7 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
             enabled = true
             if Settings.rewrittenmain.NOTIF == true then
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Locked",
+                    Title = "𝙇𝙤𝙘𝙠𝙚𝙙",
                     Text = "Victim: "..tostring(Plr.Character.Humanoid.DisplayName),
                     Duration = 2.5
                 })
