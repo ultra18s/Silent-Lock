@@ -6,7 +6,7 @@ Larp Larp Larp
 
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ultra18s/Lib/main/Lib-ui"))()
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ultra18s/POORON-LIB/main/Lib"))()
-NotifyLib.prompt('Rainbow Sunshine', 'Modified & Created By: TheRealX_ORA on YT', 5)
+NotifyLib.prompt('ALL WE DO IS LARP!!! - rainbow skidder loaded', 5)
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 local VirtualInputManager = game:service("VirtualInputManager")
@@ -17,8 +17,8 @@ local isKeyboardEnabled = UserInputService.KeyboardEnabled
 local isGamepadEnabled = UserInputService.GamepadEnabled
 
 if isTouchEnabled then
-    NotifyLib.prompt('Mobile Device Detected', 'Loading F Tool..', 5)
-    getgenv().keytoclick = "F"
+    NotifyLib.prompt('Mobile Device Detected', 'Loading V Tool..', 5)
+    getgenv().keytoclick = "V"
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
     tool.Name = "Smite"
@@ -30,12 +30,12 @@ if isTouchEnabled then
     player.CharacterRemoving:Connect(function()
         tool.Parent = player.Backpack
     end)
-    NotifyLib.prompt('Mobile F Tool', 'F Tool Has Successfully Loaded!', 5)    
+    NotifyLib.prompt('Mobile V Tool', 'V Tool Has Successfully Loaded!', 5)    
 elseif isMouseEnabled and isMouseEnabled then
-    NotifyLib.prompt('Pc Device Detected', 'Smite them with F!', 5)
+    NotifyLib.prompt('Pc Device Detected', 'Smite them with V!', 5)
 elseif isGamepadEnabled and isTouchEnabled then
-    NotifyLib.prompt('Controller And Mobile Device Detected', 'Loading F Tool..', 5)
-    getgenv().keytoclick = "F"
+    NotifyLib.prompt('Controller And Mobile Device Detected', 'Loading V Tool..', 5)
+    getgenv().keytoclick = "V"
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
     tool.Name = "Smite"
@@ -47,10 +47,10 @@ elseif isGamepadEnabled and isTouchEnabled then
     player.CharacterRemoving:Connect(function()
         tool.Parent = player.Backpack
     end)
-    NotifyLib.prompt('Controller And Mobile F Tool', 'F Tool Has Successfully Loaded!', 5)
+    NotifyLib.prompt('Controller And Mobile V Tool', 'V Tool Has Successfully Loaded!', 5)
 elseif isMouseEnabled and isMouseEnabled and isTouchEnabled then
-    NotifyLib.prompt('Hybird Mobile Device Detected', 'Loading F Tool..', 5)
-    getgenv().keytoclick = "F"
+    NotifyLib.prompt('Hybird Mobile Device Detected', 'Loading V Tool..', 5)
+    getgenv().keytoclick = "V"
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
     tool.Name = "Smite"
@@ -62,18 +62,18 @@ elseif isMouseEnabled and isMouseEnabled and isTouchEnabled then
     player.CharacterRemoving:Connect(function()
         tool.Parent = player.Backpack
     end)
-    NotifyLib.prompt('Hybird Mobile F Tool', 'F Tool Has Successfully Loaded!', 5)
+    NotifyLib.prompt('Hybird Mobile V Tool', 'V Tool Has Successfully Loaded!', 5)
 end
 
 Settings = {   
     rewrittenmain = {
 		Enabled = true,
-		Key = "F", -- change the key aint that hard -Larp
+		Key = "v", -- change the key aint that hard -TheRealX_ORA	
 		DOT = true,
 		AIRSHOT = true,
         NOTIF = true,			
         AUTOPRED = true,			
-        FOV = math.huge, -- if you dont know what is math.huge let me tell you it is infinite? -Larp
+        FOV = math.huge, -- if you dont know what is math.huge let me tell you it is infinite? -TheRealX_ORA	
     }
 }
 
