@@ -68,12 +68,12 @@ end
 Settings = {   
     rewrittenmain = {
 		Enabled = true,
-		Key = "v", -- change the key aint that hard -TheRealX_ORA	
+		Key = "v", -- change the key aint that hard -Pooron	
 		DOT = true,
 		AIRSHOT = true,
         NOTIF = true,			
         AUTOPRED = true,			
-        FOV = math.huge, -- if you dont know what is math.huge let me tell you it is infinite? -TheRealX_ORA	
+        FOV = math.huge, -- if you dont know what is math.huge let me tell you it is infinite? -Pooron	
     }
 }
 
@@ -362,4 +362,4 @@ mt.__namecall = newcclosure(function(...)
     return old(...)
 end)
 
-NotifyLib.prompt('TheRealX_ORA', 'Loaded Rainbow Sunshine!', 5)
+NotifyLib.prompt('DOOM', 'Loaded Rainbow Sunshine!', 5)
